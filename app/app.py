@@ -21,7 +21,7 @@ QUERY_EMBEDDINGS_MODEL = 'text-search-curie-query-001'
 CHAT_MODEL = 'gpt-35-turbo'
 
 # Number of knowledge base articles to include in prompt
-CONTEXT_SIZE = 1
+CONTEXT_SIZE = 2
 
 # Key vault secrets names
 OPENAI_KEY_NAME = 'AzureOAIKeyUS'
