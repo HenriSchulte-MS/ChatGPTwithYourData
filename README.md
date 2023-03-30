@@ -13,3 +13,5 @@ Steps to run locally:
 1. Set the `KEUVAULT_URI` environment variable.
 1. In your terminal, navigate to the `/app` directory and execute `flask run`.
 1. Find the app running on `http://127.0.0.1:5000/`.
+
+Based on [Question Answering using Embeddings from the OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb).
