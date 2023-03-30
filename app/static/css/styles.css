@@ -1,0 +1,99 @@
+h2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+input {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 0.5em 0;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#message {
+    width: 70%;
+}
+
+#submit {
+    background-color: #00bbff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#chat_history {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.chat_msg {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 0 0 0.75em 0;
+    padding: 10px;
+    background-color: #9d10d0;
+    border-radius: 5px;
+    max-width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+/* Every second chat element is formatted differently */
+.chat_msg:nth-child(2n) {
+    background-color: #00bbff;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+#user_input {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+#content {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 2.5%;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 213, 222);
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reset_button {
+    border: none;
+    background-color: transparent;
+    color: #949494;
+    margin-top: 5px;
+    cursor: pointer;
+}

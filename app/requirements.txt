@@ -1,0 +1,7 @@
+flask
+openai
+azure-identity
+azure-keyvault-secrets
+pandas
+numpy
+transformers
